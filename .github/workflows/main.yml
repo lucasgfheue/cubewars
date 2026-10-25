@@ -1,0 +1,55 @@
+name: Compilar mod
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  compilar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Buscar el mod (descomprime el .zip o .rar)
+        run: |
+          shopt -s nullglob nocaseglob
+          ARCHIVO=""; ULTIMO=0
+          for f in *.zip *.rar *.7z; do
+            t=$(git log -1 --format=%ct -- "$f")
+            if [ -n "$t" ] && [ "$t" -ge "$ULTIMO" ]; then ULTIMO=$t; ARCHIVO="$f"; fi
+          done
+          BASE="$GITHUB_WORKSPACE"
+          if [ -n "$ARCHIVO" ]; then
+            echo "Uso el archivo: $ARCHIVO"
+            BASE="$GITHUB_WORKSPACE/_mod"; rm -rf "$BASE"; mkdir -p "$BASE"
+            case "${ARCHIVO,,}" in
+              *.zip) unzip -q -o "$ARCHIVO" -d "$BASE" ;;
+              *) sudo apt-get update -qq && sudo apt-get install -y -qq unar && unar -q -f -o "$BASE" "$ARCHIVO" ;;
+            esac
+          fi
+          GRADLEW=$(find "$BASE" -name gradlew -type f -not -path '*/.git/*' | awk '{ print length, $0 }' | sort -n | head -n 1 | cut -d' ' -f2-)
+          if [ -z "$GRADLEW" ]; then echo "::warning::Sube el archivo locomotora-mod.zip al repositorio."; exit 0; fi
+          echo "PROYECTO=$(dirname "$GRADLEW")" >> "$GITHUB_ENV"
+
+      - uses: actions/setup-java@v6
+        if: env.PROYECTO != ''
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - uses: gradle/actions/setup-gradle@v6
+        if: env.PROYECTO != ''
+
+      - name: Compilar
+        if: env.PROYECTO != ''
+        working-directory: ${{ env.PROYECTO }}
+        run: chmod +x ./gradlew && ./gradlew build --no-daemon
+
+      - uses: actions/upload-artifact@v7
+        if: env.PROYECTO != ''
+        with:
+          name: cubewars-mod
+          path: ${{ env.PROYECTO }}/build/libs/*.jar
+          if-no-files-found: error
