@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ITI",
+    "IXI",
+    "BPB"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "T": {
+      "item": "minecraft:tnt"
+    },
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "P": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:bidon"
+  }
+}

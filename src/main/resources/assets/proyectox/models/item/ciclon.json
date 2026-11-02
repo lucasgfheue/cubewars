@@ -1,0 +1,149 @@
+{
+  "loader": "neoforge:obj",
+  "model": "proyectox:models/item/ciclon.obj",
+  "flip_v": true,
+  "emissive_ambient": true,
+  "automatic_culling": false,
+  "textures": {
+    "texture0": "proyectox:item/ciclon",
+    "particle": "proyectox:item/ciclon"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        18.0,
+        -120.0,
+        0.0
+      ],
+      "translation": [
+        -2.22,
+        0.24,
+        0.0
+      ],
+      "scale": [
+        0.506,
+        0.506,
+        0.506
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0.0,
+        6.0,
+        0.0
+      ],
+      "translation": [
+        2.03,
+        2.8,
+        -2.07
+      ],
+      "scale": [
+        0.475,
+        0.475,
+        0.475
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0.0,
+        6.0,
+        0.0
+      ],
+      "translation": [
+        2.03,
+        2.8,
+        -2.07
+      ],
+      "scale": [
+        0.475,
+        0.475,
+        0.475
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        2.44,
+        -0.58
+      ],
+      "scale": [
+        0.582,
+        0.582,
+        0.582
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        2.44,
+        -0.58
+      ],
+      "scale": [
+        0.582,
+        0.582,
+        0.582
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        1.92,
+        0.0
+      ],
+      "scale": [
+        0.267,
+        0.267,
+        0.267
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0.0,
+        -90.0,
+        0.0
+      ],
+      "translation": [
+        -2.07,
+        -0.04,
+        0.0
+      ],
+      "scale": [
+        0.461,
+        0.461,
+        0.461
+      ]
+    },
+    "head": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        4.8,
+        0.0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "GSG",
+    "BXB",
+    "GIG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "minecraft:sunflower"
+    },
+    "B": {
+      "item": "minecraft:blaze_powder"
+    },
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:solar"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  T",
+    " C ",
+    "X  "
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:pointed_dripstone"
+    },
+    "C": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:aguijon"
+  }
+}

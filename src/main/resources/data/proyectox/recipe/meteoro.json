@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "MFM",
+    "OXO",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:magma_block"
+    },
+    "F": {
+      "item": "minecraft:fire_charge"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    },
+    "S": {
+      "item": "minecraft:spyglass"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:meteoro"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " GS",
+    "CXS",
+    " GS"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "C": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:cenit"
+  }
+}

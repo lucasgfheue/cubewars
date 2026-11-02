@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "DID",
+    "IXI",
+    "R R"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:dispenser"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    },
+    "R": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:centinela"
+  }
+}

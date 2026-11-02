@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " D ",
+    "DPD",
+    "IXI"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:taladro"
+  }
+}

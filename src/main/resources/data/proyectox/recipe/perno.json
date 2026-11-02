@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ISI",
+    "BXB",
+    " P "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_bars"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    },
+    "P": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:perno"
+  }
+}

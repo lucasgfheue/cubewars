@@ -1,0 +1,2090 @@
+{
+  "arma.vacia": {
+    "subtitle": "subtitles.proyectox.arma.vacia",
+    "sounds": [
+      {
+        "name": "minecraft:block.dispenser.fail",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.5
+      }
+    ]
+  },
+  "arma.lista": {
+    "subtitle": "subtitles.proyectox.arma.lista",
+    "sounds": [
+      {
+        "name": "minecraft:block.note_block.chime",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "martinete.presion": {
+    "subtitle": "subtitles.proyectox.martinete.presion",
+    "sounds": [
+      {
+        "name": "minecraft:block.piston.extend",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 1.0
+      }
+    ]
+  },
+  "martinete.carga": {
+    "subtitle": "subtitles.proyectox.martinete.carga",
+    "sounds": [
+      {
+        "name": "minecraft:block.respawn_anchor.charge",
+        "type": "event",
+        "volume": 0.9,
+        "pitch": 0.7
+      }
+    ]
+  },
+  "martinete.ruptura": {
+    "subtitle": "subtitles.proyectox.martinete.ruptura",
+    "sounds": [
+      {
+        "name": "minecraft:item.mace.smash_ground_heavy",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "aguja.carga": {
+    "subtitle": "subtitles.proyectox.aguja.carga",
+    "sounds": [
+      {
+        "name": "minecraft:entity.warden.sonic_charge",
+        "type": "event",
+        "volume": 0.6,
+        "pitch": 2.0
+      }
+    ]
+  },
+  "aguja.disparo": {
+    "subtitle": "subtitles.proyectox.aguja.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.firework_rocket.blast",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.7
+      }
+    ]
+  },
+  "aguja.riel": {
+    "subtitle": "subtitles.proyectox.aguja.riel",
+    "sounds": [
+      {
+        "name": "minecraft:entity.warden.sonic_boom",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 1.5
+      }
+    ]
+  },
+  "avispon.disparo": {
+    "subtitle": "subtitles.proyectox.avispon.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.blaze.shoot",
+        "type": "event",
+        "volume": 0.45,
+        "pitch": 1.9
+      }
+    ]
+  },
+  "avispon.impacto": {
+    "subtitle": "subtitles.proyectox.avispon.impacto",
+    "sounds": [
+      {
+        "name": "minecraft:block.fire.extinguish",
+        "type": "event",
+        "volume": 0.3,
+        "pitch": 1.8
+      }
+    ]
+  },
+  "avispon.sobrecalor": {
+    "subtitle": "subtitles.proyectox.avispon.sobrecalor",
+    "sounds": [
+      {
+        "name": "minecraft:block.lava.extinguish",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    ]
+  },
+  "avispon.purga": {
+    "subtitle": "subtitles.proyectox.avispon.purga",
+    "sounds": [
+      {
+        "name": "minecraft:block.fire.extinguish",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "colmena.fijar": {
+    "subtitle": "subtitles.proyectox.colmena.fijar",
+    "sounds": [
+      {
+        "name": "minecraft:entity.arrow.hit_player",
+        "type": "event",
+        "volume": 0.7,
+        "pitch": 1.3
+      }
+    ]
+  },
+  "colmena.lanzar": {
+    "subtitle": "subtitles.proyectox.colmena.lanzar",
+    "sounds": [
+      {
+        "name": "minecraft:entity.firework_rocket.launch",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "colmena.explosion": {
+    "subtitle": "subtitles.proyectox.colmena.explosion",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event",
+        "volume": 0.7,
+        "pitch": 1.3
+      }
+    ]
+  },
+  "vortice.disparo": {
+    "subtitle": "subtitles.proyectox.vortice.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.shulker.shoot",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "vortice.abrir": {
+    "subtitle": "subtitles.proyectox.vortice.abrir",
+    "sounds": [
+      {
+        "name": "minecraft:block.portal.trigger",
+        "type": "event",
+        "volume": 0.5,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "vortice.colapso": {
+    "subtitle": "subtitles.proyectox.vortice.colapso",
+    "sounds": [
+      {
+        "name": "minecraft:entity.warden.sonic_boom",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "vortice.ancla": {
+    "subtitle": "subtitles.proyectox.vortice.ancla",
+    "sounds": [
+      {
+        "name": "minecraft:item.chorus_fruit.teleport",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "cizalla.tajo": {
+    "subtitle": "subtitles.proyectox.cizalla.tajo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.sweep",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "cizalla.vibro": {
+    "subtitle": "subtitles.proyectox.cizalla.vibro",
+    "sounds": [
+      {
+        "name": "minecraft:block.amethyst_block.chime",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "taladro.carga": {
+    "subtitle": "subtitles.proyectox.taladro.carga",
+    "sounds": [
+      {
+        "name": "minecraft:block.piston.contract",
+        "type": "event",
+        "volume": 0.9,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "taladro.embestida": {
+    "subtitle": "subtitles.proyectox.taladro.embestida",
+    "sounds": [
+      {
+        "name": "minecraft:entity.ravager.attack",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.1
+      }
+    ]
+  },
+  "serpentina.latigo": {
+    "subtitle": "subtitles.proyectox.serpentina.latigo",
+    "sounds": [
+      {
+        "name": "minecraft:item.trident.throw",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.5
+      }
+    ]
+  },
+  "serpentina.arco": {
+    "subtitle": "subtitles.proyectox.serpentina.arco",
+    "sounds": [
+      {
+        "name": "minecraft:entity.lightning_bolt.impact",
+        "type": "event",
+        "volume": 0.35,
+        "pitch": 1.8
+      }
+    ]
+  },
+  "chispa.disparo": {
+    "subtitle": "subtitles.proyectox.chispa.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.lightning_bolt.impact",
+        "type": "event",
+        "volume": 0.45,
+        "pitch": 2.0
+      }
+    ]
+  },
+  "remache.disparo": {
+    "subtitle": "subtitles.proyectox.remache.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event",
+        "volume": 0.5,
+        "pitch": 1.7
+      }
+    ]
+  },
+  "trituradora.lanzar": {
+    "subtitle": "subtitles.proyectox.trituradora.lanzar",
+    "sounds": [
+      {
+        "name": "minecraft:item.crossbow.shoot",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.5
+      }
+    ]
+  },
+  "trituradora.rebote": {
+    "subtitle": "subtitles.proyectox.trituradora.rebote",
+    "sounds": [
+      {
+        "name": "minecraft:block.metal.hit",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "trituradora.explosion": {
+    "subtitle": "subtitles.proyectox.trituradora.explosion",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 1.1
+      }
+    ]
+  },
+  "rotor.giro": {
+    "subtitle": "subtitles.proyectox.rotor.giro",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.power_select",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 1.4
+      }
+    ]
+  },
+  "rotor.disparo": {
+    "subtitle": "subtitles.proyectox.rotor.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:item.crossbow.shoot",
+        "type": "event",
+        "volume": 0.35,
+        "pitch": 1.9
+      }
+    ]
+  },
+  "halcon.despliegue": {
+    "subtitle": "subtitles.proyectox.halcon.despliegue",
+    "sounds": [
+      {
+        "name": "minecraft:entity.firework_rocket.launch",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "halcon.disparo": {
+    "subtitle": "subtitles.proyectox.halcon.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.blaze.shoot",
+        "type": "event",
+        "volume": 0.4,
+        "pitch": 2.0
+      }
+    ]
+  },
+  "halcon.retirada": {
+    "subtitle": "subtitles.proyectox.halcon.retirada",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.deactivate",
+        "type": "event",
+        "volume": 0.7,
+        "pitch": 1.8
+      }
+    ]
+  },
+  "trueno.marcar": {
+    "subtitle": "subtitles.proyectox.trueno.marcar",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.power_select",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 2.0
+      }
+    ]
+  },
+  "trueno.impacto": {
+    "subtitle": "subtitles.proyectox.trueno.impacto",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "trueno.bengala": {
+    "subtitle": "subtitles.proyectox.trueno.bengala",
+    "sounds": [
+      {
+        "name": "minecraft:entity.firework_rocket.launch",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "soplete.chorro": {
+    "subtitle": "subtitles.proyectox.soplete.chorro",
+    "sounds": [
+      {
+        "name": "minecraft:item.firecharge.use",
+        "type": "event",
+        "volume": 0.6,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "soplete.napalm": {
+    "subtitle": "subtitles.proyectox.soplete.napalm",
+    "sounds": [
+      {
+        "name": "minecraft:entity.ghast.shoot",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "escarcha.rayo": {
+    "subtitle": "subtitles.proyectox.escarcha.rayo",
+    "sounds": [
+      {
+        "name": "minecraft:block.powder_snow.step",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 1.4
+      }
+    ]
+  },
+  "escarcha.congelar": {
+    "subtitle": "subtitles.proyectox.escarcha.congelar",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.hurt_freeze",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    ]
+  },
+  "escarcha.nova": {
+    "subtitle": "subtitles.proyectox.escarcha.nova",
+    "sounds": [
+      {
+        "name": "minecraft:block.glass.break",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "eco.carga": {
+    "subtitle": "subtitles.proyectox.eco.carga",
+    "sounds": [
+      {
+        "name": "minecraft:entity.warden.sonic_charge",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    ]
+  },
+  "eco.onda": {
+    "subtitle": "subtitles.proyectox.eco.onda",
+    "sounds": [
+      {
+        "name": "minecraft:entity.warden.sonic_boom",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    ]
+  },
+  "bastion.pulso": {
+    "subtitle": "subtitles.proyectox.bastion.pulso",
+    "sounds": [
+      {
+        "name": "minecraft:entity.warden.sonic_boom",
+        "type": "event",
+        "volume": 0.7,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "colibri.disparo": {
+    "subtitle": "subtitles.proyectox.colibri.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.arrow.shoot",
+        "type": "event",
+        "volume": 0.4,
+        "pitch": 2.0
+      }
+    ]
+  },
+  "sierra.lanzar": {
+    "subtitle": "subtitles.proyectox.sierra.lanzar",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.sweep",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.4
+      }
+    ]
+  },
+  "sierra.rebote": {
+    "subtitle": "subtitles.proyectox.sierra.rebote",
+    "sounds": [
+      {
+        "name": "minecraft:block.anvil.land",
+        "type": "event",
+        "volume": 0.3,
+        "pitch": 2.0
+      }
+    ]
+  },
+  "sierra.corte": {
+    "subtitle": "subtitles.proyectox.sierra.corte",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.crit",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "centella.disparo": {
+    "subtitle": "subtitles.proyectox.centella.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.firework_rocket.large_blast",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.75
+      }
+    ]
+  },
+  "centella.tambor": {
+    "subtitle": "subtitles.proyectox.centella.tambor",
+    "sounds": [
+      {
+        "name": "minecraft:block.tripwire.click_on",
+        "type": "event",
+        "volume": 0.7,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "arpon.disparo": {
+    "subtitle": "subtitles.proyectox.arpon.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:item.trident.throw",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.7
+      }
+    ]
+  },
+  "arpon.clavar": {
+    "subtitle": "subtitles.proyectox.arpon.clavar",
+    "sounds": [
+      {
+        "name": "minecraft:item.trident.hit",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.9
+      }
+    ]
+  },
+  "arpon.pitido": {
+    "subtitle": "subtitles.proyectox.arpon.pitido",
+    "sounds": [
+      {
+        "name": "minecraft:block.note_block.bit",
+        "type": "event",
+        "volume": 0.7,
+        "pitch": 1.8
+      }
+    ]
+  },
+  "arpon.explosion": {
+    "subtitle": "subtitles.proyectox.arpon.explosion",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event",
+        "volume": 0.9,
+        "pitch": 1.25
+      }
+    ]
+  },
+  "mortero.disparo": {
+    "subtitle": "subtitles.proyectox.mortero.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.firework_rocket.launch",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.5
+      }
+    ]
+  },
+  "mortero.explosion": {
+    "subtitle": "subtitles.proyectox.mortero.explosion",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.75
+      }
+    ]
+  },
+  "prisma.disparo": {
+    "subtitle": "subtitles.proyectox.prisma.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.activate",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 2.0
+      }
+    ]
+  },
+  "prisma.division": {
+    "subtitle": "subtitles.proyectox.prisma.division",
+    "sounds": [
+      {
+        "name": "minecraft:block.amethyst_block.resonate",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.4
+      }
+    ]
+  },
+  "enjambre.disparo": {
+    "subtitle": "subtitles.proyectox.enjambre.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.llama.spit",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "enjambre.zumbido": {
+    "subtitle": "subtitles.proyectox.enjambre.zumbido",
+    "sounds": [
+      {
+        "name": "minecraft:entity.bee.loop_aggressive",
+        "type": "event",
+        "volume": 0.6,
+        "pitch": 1.5
+      }
+    ]
+  },
+  "caustica.disparo": {
+    "subtitle": "subtitles.proyectox.caustica.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.slime.squish_small",
+        "type": "event",
+        "volume": 0.9,
+        "pitch": 1.3
+      }
+    ]
+  },
+  "caustica.salpicar": {
+    "subtitle": "subtitles.proyectox.caustica.salpicar",
+    "sounds": [
+      {
+        "name": "minecraft:block.lava.extinguish",
+        "type": "event",
+        "volume": 0.5,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "solar.carga": {
+    "subtitle": "subtitles.proyectox.solar.carga",
+    "sounds": [
+      {
+        "name": "minecraft:block.conduit.activate",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.3
+      }
+    ]
+  },
+  "solar.disparo": {
+    "subtitle": "subtitles.proyectox.solar.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.blaze.shoot",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.5
+      }
+    ]
+  },
+  "solar.explosion": {
+    "subtitle": "subtitles.proyectox.solar.explosion",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "tempestad.disparo": {
+    "subtitle": "subtitles.proyectox.tempestad.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.evoker.cast_spell",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "tempestad.rayo": {
+    "subtitle": "subtitles.proyectox.tempestad.rayo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.lightning_bolt.impact",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 1.1
+      }
+    ]
+  },
+  "esquirla.disparo": {
+    "subtitle": "subtitles.proyectox.esquirla.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:block.amethyst_block.break",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.3
+      }
+    ]
+  },
+  "esquirla.estallido": {
+    "subtitle": "subtitles.proyectox.esquirla.estallido",
+    "sounds": [
+      {
+        "name": "minecraft:block.glass.break",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 1.4
+      }
+    ]
+  },
+  "ciclon.disparo": {
+    "subtitle": "subtitles.proyectox.ciclon.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.breeze.shoot",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.7
+      }
+    ]
+  },
+  "ciclon.viento": {
+    "subtitle": "subtitles.proyectox.ciclon.viento",
+    "sounds": [
+      {
+        "name": "minecraft:entity.breeze.whirl",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "minador.disparo": {
+    "subtitle": "subtitles.proyectox.minador.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:item.crossbow.shoot",
+        "type": "event",
+        "volume": 0.9,
+        "pitch": 0.7
+      }
+    ]
+  },
+  "minador.adherir": {
+    "subtitle": "subtitles.proyectox.minador.adherir",
+    "sounds": [
+      {
+        "name": "minecraft:block.honey_block.place",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    ]
+  },
+  "minador.armar": {
+    "subtitle": "subtitles.proyectox.minador.armar",
+    "sounds": [
+      {
+        "name": "minecraft:block.note_block.bit",
+        "type": "event",
+        "volume": 0.7,
+        "pitch": 2.0
+      }
+    ]
+  },
+  "minador.explosion": {
+    "subtitle": "subtitles.proyectox.minador.explosion",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.05
+      }
+    ]
+  },
+  "ceniza.disparo": {
+    "subtitle": "subtitles.proyectox.ceniza.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:block.end_portal_frame.fill",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.7
+      }
+    ]
+  },
+  "ceniza.desintegrar": {
+    "subtitle": "subtitles.proyectox.ceniza.desintegrar",
+    "sounds": [
+      {
+        "name": "minecraft:block.fire.extinguish",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 0.7
+      }
+    ]
+  },
+  "saeta.tensar": {
+    "subtitle": "subtitles.proyectox.saeta.tensar",
+    "sounds": [
+      {
+        "name": "minecraft:item.crossbow.loading_middle",
+        "type": "event",
+        "volume": 0.9,
+        "pitch": 1.4
+      }
+    ]
+  },
+  "saeta.disparo": {
+    "subtitle": "subtitles.proyectox.saeta.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.arrow.shoot",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "saeta.impacto": {
+    "subtitle": "subtitles.proyectox.saeta.impacto",
+    "sounds": [
+      {
+        "name": "minecraft:entity.arrow.hit",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "guadana.tajo": {
+    "subtitle": "subtitles.proyectox.guadana.tajo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.sweep",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "pica.estocada": {
+    "subtitle": "subtitles.proyectox.pica.estocada",
+    "sounds": [
+      {
+        "name": "minecraft:item.trident.riptide_1",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "rugido.disparo": {
+    "subtitle": "subtitles.proyectox.rugido.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.firework_rocket.launch",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "rugido.explosion": {
+    "subtitle": "subtitles.proyectox.rugido.explosion",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.85
+      }
+    ]
+  },
+  "meteoro.marcar": {
+    "subtitle": "subtitles.proyectox.meteoro.marcar",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.power_select",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 1.7
+      }
+    ]
+  },
+  "meteoro.caida": {
+    "subtitle": "subtitles.proyectox.meteoro.caida",
+    "sounds": [
+      {
+        "name": "minecraft:entity.firework_rocket.launch",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.45
+      }
+    ]
+  },
+  "meteoro.impacto": {
+    "subtitle": "subtitles.proyectox.meteoro.impacto",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "pulsar.disparo": {
+    "subtitle": "subtitles.proyectox.pulsar.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:block.respawn_anchor.charge",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.4
+      }
+    ]
+  },
+  "pulsar.descarga": {
+    "subtitle": "subtitles.proyectox.pulsar.descarga",
+    "sounds": [
+      {
+        "name": "minecraft:entity.lightning_bolt.impact",
+        "type": "event",
+        "volume": 0.35,
+        "pitch": 1.9
+      }
+    ]
+  },
+  "pulsar.explosion": {
+    "subtitle": "subtitles.proyectox.pulsar.explosion",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 1.35
+      }
+    ]
+  },
+  "falla.golpe": {
+    "subtitle": "subtitles.proyectox.falla.golpe",
+    "sounds": [
+      {
+        "name": "minecraft:item.mace.smash_ground_heavy",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "falla.grieta": {
+    "subtitle": "subtitles.proyectox.falla.grieta",
+    "sounds": [
+      {
+        "name": "minecraft:block.basalt.break",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "centinela.desplegar": {
+    "subtitle": "subtitles.proyectox.centinela.desplegar",
+    "sounds": [
+      {
+        "name": "minecraft:block.piston.extend",
+        "type": "event",
+        "volume": 0.9,
+        "pitch": 1.3
+      }
+    ]
+  },
+  "centinela.disparo": {
+    "subtitle": "subtitles.proyectox.centinela.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.firework_rocket.blast",
+        "type": "event",
+        "volume": 0.45,
+        "pitch": 2.0
+      }
+    ]
+  },
+  "centinela.retirar": {
+    "subtitle": "subtitles.proyectox.centinela.retirar",
+    "sounds": [
+      {
+        "name": "minecraft:block.piston.contract",
+        "type": "event",
+        "volume": 0.9,
+        "pitch": 1.3
+      }
+    ]
+  },
+  "retorno.lanzar": {
+    "subtitle": "subtitles.proyectox.retorno.lanzar",
+    "sounds": [
+      {
+        "name": "minecraft:item.trident.throw",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.4
+      }
+    ]
+  },
+  "retorno.volver": {
+    "subtitle": "subtitles.proyectox.retorno.volver",
+    "sounds": [
+      {
+        "name": "minecraft:item.trident.return",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "retorno.atrapar": {
+    "subtitle": "subtitles.proyectox.retorno.atrapar",
+    "sounds": [
+      {
+        "name": "minecraft:item.armor.equip_iron",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.4
+      }
+    ]
+  },
+  "retorno.corte": {
+    "subtitle": "subtitles.proyectox.retorno.corte",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.sweep",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "marea.chorro": {
+    "subtitle": "subtitles.proyectox.marea.chorro",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.splash.high_speed",
+        "type": "event",
+        "volume": 0.5,
+        "pitch": 1.4
+      }
+    ]
+  },
+  "marea.salpicar": {
+    "subtitle": "subtitles.proyectox.marea.salpicar",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.splash",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "mangual.giro": {
+    "subtitle": "subtitles.proyectox.mangual.giro",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.sweep",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.5
+      }
+    ]
+  },
+  "ariete.golpe": {
+    "subtitle": "subtitles.proyectox.ariete.golpe",
+    "sounds": [
+      {
+        "name": "minecraft:entity.iron_golem.attack",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    ]
+  },
+  "ariete.onda": {
+    "subtitle": "subtitles.proyectox.ariete.onda",
+    "sounds": [
+      {
+        "name": "minecraft:entity.warden.sonic_boom",
+        "type": "event",
+        "volume": 0.4,
+        "pitch": 1.8
+      }
+    ]
+  },
+  "pixel.disparo": {
+    "subtitle": "subtitles.proyectox.pixel.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.firework_rocket.blast",
+        "type": "event",
+        "volume": 0.6,
+        "pitch": 1.9
+      }
+    ]
+  },
+  "voltio.disparo": {
+    "subtitle": "subtitles.proyectox.voltio.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.lightning_bolt.impact",
+        "type": "event",
+        "volume": 0.22,
+        "pitch": 2.0
+      }
+    ]
+  },
+  "estatica.disparo": {
+    "subtitle": "subtitles.proyectox.estatica.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event",
+        "volume": 0.45,
+        "pitch": 1.9
+      }
+    ]
+  },
+  "diodo.carga": {
+    "subtitle": "subtitles.proyectox.diodo.carga",
+    "sounds": [
+      {
+        "name": "minecraft:block.conduit.activate",
+        "type": "event",
+        "volume": 0.7,
+        "pitch": 2.0
+      }
+    ]
+  },
+  "diodo.disparo": {
+    "subtitle": "subtitles.proyectox.diodo.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.activate",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "fusible.disparo": {
+    "subtitle": "subtitles.proyectox.fusible.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:item.crossbow.shoot",
+        "type": "event",
+        "volume": 0.9,
+        "pitch": 0.9
+      }
+    ]
+  },
+  "fusible.pulso": {
+    "subtitle": "subtitles.proyectox.fusible.pulso",
+    "sounds": [
+      {
+        "name": "minecraft:entity.lightning_bolt.impact",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "antena.disparo": {
+    "subtitle": "subtitles.proyectox.antena.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:block.respawn_anchor.deplete",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "vinilo.disparo": {
+    "subtitle": "subtitles.proyectox.vinilo.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:block.note_block.bit",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "vinilo.rebote": {
+    "subtitle": "subtitles.proyectox.vinilo.rebote",
+    "sounds": [
+      {
+        "name": "minecraft:block.note_block.pling",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 1.4
+      }
+    ]
+  },
+  "bajo.disparo": {
+    "subtitle": "subtitles.proyectox.bajo.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.warden.sonic_boom",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "nexo.disparo": {
+    "subtitle": "subtitles.proyectox.nexo.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.firework_rocket.launch",
+        "type": "event",
+        "volume": 0.9,
+        "pitch": 1.8
+      }
+    ]
+  },
+  "nexo.explosion": {
+    "subtitle": "subtitles.proyectox.nexo.explosion",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event",
+        "volume": 0.5,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "neon.tajo": {
+    "subtitle": "subtitles.proyectox.neon.tajo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.sweep",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.5
+      }
+    ]
+  },
+  "rele.golpe": {
+    "subtitle": "subtitles.proyectox.rele.golpe",
+    "sounds": [
+      {
+        "name": "minecraft:entity.lightning_bolt.impact",
+        "type": "event",
+        "volume": 0.45,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "frecuencia.onda": {
+    "subtitle": "subtitles.proyectox.frecuencia.onda",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 2.0
+      }
+    ]
+  },
+  "clavo.disparo": {
+    "subtitle": "subtitles.proyectox.clavo.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:block.chain.place",
+        "type": "event",
+        "volume": 0.9,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "serrucho.lanzar": {
+    "subtitle": "subtitles.proyectox.serrucho.lanzar",
+    "sounds": [
+      {
+        "name": "minecraft:block.grindstone.use",
+        "type": "event",
+        "volume": 0.9,
+        "pitch": 1.3
+      }
+    ]
+  },
+  "perno.carga": {
+    "subtitle": "subtitles.proyectox.perno.carga",
+    "sounds": [
+      {
+        "name": "minecraft:item.crossbow.loading_middle",
+        "type": "event",
+        "volume": 0.9,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "perno.disparo": {
+    "subtitle": "subtitles.proyectox.perno.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:item.crossbow.shoot",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.7
+      }
+    ]
+  },
+  "molotov.lanzar": {
+    "subtitle": "subtitles.proyectox.molotov.lanzar",
+    "sounds": [
+      {
+        "name": "minecraft:entity.splash_potion.throw",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "molotov.romper": {
+    "subtitle": "subtitles.proyectox.molotov.romper",
+    "sounds": [
+      {
+        "name": "minecraft:block.glass.break",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.9
+      }
+    ]
+  },
+  "molotov.fuego": {
+    "subtitle": "subtitles.proyectox.molotov.fuego",
+    "sounds": [
+      {
+        "name": "minecraft:block.fire.ambient",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    ]
+  },
+  "bidon.disparo": {
+    "subtitle": "subtitles.proyectox.bidon.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.firework_rocket.blast",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.5
+      }
+    ]
+  },
+  "cacharro.disparo": {
+    "subtitle": "subtitles.proyectox.cacharro.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event",
+        "volume": 0.6,
+        "pitch": 1.4
+      }
+    ]
+  },
+  "cacharro.rebote": {
+    "subtitle": "subtitles.proyectox.cacharro.rebote",
+    "sounds": [
+      {
+        "name": "minecraft:block.anvil.land",
+        "type": "event",
+        "volume": 0.4,
+        "pitch": 1.8
+      }
+    ]
+  },
+  "manivela.manivela": {
+    "subtitle": "subtitles.proyectox.manivela.manivela",
+    "sounds": [
+      {
+        "name": "minecraft:block.tripwire.click_on",
+        "type": "event",
+        "volume": 0.6,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "garfio.disparo": {
+    "subtitle": "subtitles.proyectox.garfio.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:item.crossbow.shoot",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "garfio.enganchar": {
+    "subtitle": "subtitles.proyectox.garfio.enganchar",
+    "sounds": [
+      {
+        "name": "minecraft:block.chain.hit",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "garfio.tirar": {
+    "subtitle": "subtitles.proyectox.garfio.tirar",
+    "sounds": [
+      {
+        "name": "minecraft:block.chain.break",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    ]
+  },
+  "palanca.golpe": {
+    "subtitle": "subtitles.proyectox.palanca.golpe",
+    "sounds": [
+      {
+        "name": "minecraft:block.anvil.land",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 0.7
+      }
+    ]
+  },
+  "oxido.tajo": {
+    "subtitle": "subtitles.proyectox.oxido.tajo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.sweep",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "espora.disparo": {
+    "subtitle": "subtitles.proyectox.espora.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.puffer_fish.blow_out",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.4
+      }
+    ]
+  },
+  "glifo.disparo": {
+    "subtitle": "subtitles.proyectox.glifo.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.evoker.cast_spell",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 1.8
+      }
+    ]
+  },
+  "abismo.disparo": {
+    "subtitle": "subtitles.proyectox.abismo.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.shulker.shoot",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.5
+      }
+    ]
+  },
+  "abismo.pozo": {
+    "subtitle": "subtitles.proyectox.abismo.pozo",
+    "sounds": [
+      {
+        "name": "minecraft:block.respawn_anchor.ambient",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "larva.disparo": {
+    "subtitle": "subtitles.proyectox.larva.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.silverfish.ambient",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "larva.salto": {
+    "subtitle": "subtitles.proyectox.larva.salto",
+    "sounds": [
+      {
+        "name": "minecraft:entity.slime.jump_small",
+        "type": "event",
+        "volume": 0.6,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "eclipse.rayo": {
+    "subtitle": "subtitles.proyectox.eclipse.rayo",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "nebula.disparo": {
+    "subtitle": "subtitles.proyectox.nebula.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:block.bubble_column.upwards_inside",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.7
+      }
+    ]
+  },
+  "nebula.estallido": {
+    "subtitle": "subtitles.proyectox.nebula.estallido",
+    "sounds": [
+      {
+        "name": "minecraft:entity.firework_rocket.twinkle",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "simbionte.tajo": {
+    "subtitle": "subtitles.proyectox.simbionte.tajo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.sweep",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.7
+      }
+    ]
+  },
+  "simbionte.curar": {
+    "subtitle": "subtitles.proyectox.simbionte.curar",
+    "sounds": [
+      {
+        "name": "minecraft:block.sculk.spread",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.4
+      }
+    ]
+  },
+  "eter.disparo": {
+    "subtitle": "subtitles.proyectox.eter.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.illusioner.cast_spell",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "cenit.carga": {
+    "subtitle": "subtitles.proyectox.cenit.carga",
+    "sounds": [
+      {
+        "name": "minecraft:block.amethyst_block.resonate",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "cenit.disparo": {
+    "subtitle": "subtitles.proyectox.cenit.disparo",
+    "sounds": [
+      {
+        "name": "minecraft:block.amethyst_cluster.break",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "umbral.abrir": {
+    "subtitle": "subtitles.proyectox.umbral.abrir",
+    "sounds": [
+      {
+        "name": "minecraft:block.end_portal.spawn",
+        "type": "event",
+        "volume": 0.6,
+        "pitch": 1.4
+      }
+    ]
+  },
+  "umbral.grieta": {
+    "subtitle": "subtitles.proyectox.umbral.grieta",
+    "sounds": [
+      {
+        "name": "minecraft:block.portal.ambient",
+        "type": "event",
+        "volume": 0.8,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "observador.invocar": {
+    "subtitle": "subtitles.proyectox.observador.invocar",
+    "sounds": [
+      {
+        "name": "minecraft:entity.ender_eye.launch",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "observador.rayo": {
+    "subtitle": "subtitles.proyectox.observador.rayo",
+    "sounds": [
+      {
+        "name": "minecraft:entity.guardian.attack",
+        "type": "event",
+        "volume": 0.5,
+        "pitch": 1.6
+      }
+    ]
+  },
+  "aguijon.estocada": {
+    "subtitle": "subtitles.proyectox.aguijon.estocada",
+    "sounds": [
+      {
+        "name": "minecraft:entity.bee.sting",
+        "type": "event",
+        "volume": 1.0,
+        "pitch": 0.7
+      }
+    ]
+  },
+  "yunque.disparo": {
+    "subtitle": "subtitles.proyectox.yunque.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/yunque_1",
+        "preload": true
+      },
+      {
+        "name": "proyectox:arma/yunque_2",
+        "preload": true
+      }
+    ]
+  },
+  "chacal.disparo": {
+    "subtitle": "subtitles.proyectox.chacal.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/chacal_1",
+        "preload": true
+      },
+      {
+        "name": "proyectox:arma/chacal_2",
+        "preload": true
+      }
+    ]
+  },
+  "trabuco.disparo": {
+    "subtitle": "subtitles.proyectox.trabuco.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/trabuco_1",
+        "preload": true
+      },
+      {
+        "name": "proyectox:arma/trabuco_2",
+        "preload": true
+      }
+    ]
+  },
+  "trabuco.corredera": {
+    "subtitle": "subtitles.proyectox.trabuco.corredera",
+    "sounds": [
+      {
+        "name": "proyectox:arma/pump"
+      }
+    ]
+  },
+  "coyote.disparo": {
+    "subtitle": "subtitles.proyectox.coyote.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/coyote_1",
+        "preload": true
+      },
+      {
+        "name": "proyectox:arma/coyote_2",
+        "preload": true
+      }
+    ]
+  },
+  "granizo.disparo": {
+    "subtitle": "subtitles.proyectox.granizo.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/granizo_1",
+        "preload": true
+      },
+      {
+        "name": "proyectox:arma/granizo_2",
+        "preload": true
+      }
+    ]
+  },
+  "lince.disparo": {
+    "subtitle": "subtitles.proyectox.lince.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/lince_1",
+        "preload": true
+      },
+      {
+        "name": "proyectox:arma/lince_2",
+        "preload": true
+      }
+    ]
+  },
+  "lince.cerrojo": {
+    "subtitle": "subtitles.proyectox.lince.cerrojo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/bolt"
+      }
+    ]
+  },
+  "bisonte.disparo": {
+    "subtitle": "subtitles.proyectox.bisonte.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/bisonte_1",
+        "preload": true
+      },
+      {
+        "name": "proyectox:arma/bisonte_2",
+        "preload": true
+      }
+    ]
+  },
+  "vibora.disparo": {
+    "subtitle": "subtitles.proyectox.vibora.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/vibora_1",
+        "preload": true
+      },
+      {
+        "name": "proyectox:arma/vibora_2",
+        "preload": true
+      }
+    ]
+  },
+  "tejon.disparo": {
+    "subtitle": "subtitles.proyectox.tejon.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/tejon_1",
+        "preload": true
+      },
+      {
+        "name": "proyectox:arma/tejon_2",
+        "preload": true
+      }
+    ]
+  },
+  "sombra.disparo": {
+    "subtitle": "subtitles.proyectox.sombra.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/sombra_1",
+        "preload": true
+      },
+      {
+        "name": "proyectox:arma/sombra_2",
+        "preload": true
+      }
+    ]
+  },
+  "galgo.disparo": {
+    "subtitle": "subtitles.proyectox.galgo.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/galgo_1",
+        "preload": true
+      },
+      {
+        "name": "proyectox:arma/galgo_2",
+        "preload": true
+      }
+    ]
+  },
+  "azor.disparo": {
+    "subtitle": "subtitles.proyectox.azor.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/azor_1",
+        "preload": true
+      },
+      {
+        "name": "proyectox:arma/azor_2",
+        "preload": true
+      }
+    ]
+  },
+  "condor.disparo": {
+    "subtitle": "subtitles.proyectox.condor.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/condor_1",
+        "preload": true
+      },
+      {
+        "name": "proyectox:arma/condor_2",
+        "preload": true
+      }
+    ]
+  },
+  "huron.disparo": {
+    "subtitle": "subtitles.proyectox.huron.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/huron_1",
+        "preload": true
+      },
+      {
+        "name": "proyectox:arma/huron_2",
+        "preload": true
+      }
+    ]
+  },
+  "buho.disparo": {
+    "subtitle": "subtitles.proyectox.buho.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/buho_1",
+        "preload": true
+      },
+      {
+        "name": "proyectox:arma/buho_2",
+        "preload": true
+      }
+    ]
+  },
+  "pirana.disparo": {
+    "subtitle": "subtitles.proyectox.pirana.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/pirana_1",
+        "preload": true
+      },
+      {
+        "name": "proyectox:arma/pirana_2",
+        "preload": true
+      }
+    ]
+  },
+  "jabali.disparo": {
+    "subtitle": "subtitles.proyectox.jabali.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/jabali_1",
+        "preload": true
+      },
+      {
+        "name": "proyectox:arma/jabali_2",
+        "preload": true
+      }
+    ]
+  },
+  "avalancha.disparo": {
+    "subtitle": "subtitles.proyectox.avalancha.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/avalancha_1",
+        "preload": true
+      },
+      {
+        "name": "proyectox:arma/avalancha_2",
+        "preload": true
+      }
+    ]
+  },
+  "diluvio.disparo": {
+    "subtitle": "subtitles.proyectox.diluvio.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/diluvio_1",
+        "preload": true
+      },
+      {
+        "name": "proyectox:arma/diluvio_2",
+        "preload": true
+      }
+    ]
+  },
+  "volcan.disparo": {
+    "subtitle": "subtitles.proyectox.volcan.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/volcan_1",
+        "preload": true
+      },
+      {
+        "name": "proyectox:arma/volcan_2",
+        "preload": true
+      }
+    ]
+  },
+  "volcan.tambor": {
+    "subtitle": "subtitles.proyectox.volcan.tambor",
+    "sounds": [
+      {
+        "name": "proyectox:arma/drum"
+      }
+    ]
+  },
+  "volcan.explosion": {
+    "subtitle": "subtitles.proyectox.volcan.explosion",
+    "sounds": [
+      {
+        "name": "proyectox:arma/explosion_1"
+      },
+      {
+        "name": "proyectox:arma/explosion_2"
+      }
+    ]
+  },
+  "tuberia.disparo": {
+    "subtitle": "subtitles.proyectox.tuberia.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/coyote_1",
+        "preload": true,
+        "pitch": 0.85
+      },
+      {
+        "name": "proyectox:arma/coyote_2",
+        "preload": true,
+        "pitch": 0.85
+      }
+    ]
+  },
+  "chapa.disparo": {
+    "subtitle": "subtitles.proyectox.chapa.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/trabuco_1",
+        "preload": true,
+        "pitch": 0.9
+      },
+      {
+        "name": "proyectox:arma/trabuco_2",
+        "preload": true,
+        "pitch": 0.9
+      }
+    ]
+  },
+  "manivela.disparo": {
+    "subtitle": "subtitles.proyectox.manivela.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/pirana_1",
+        "preload": true,
+        "pitch": 0.8
+      },
+      {
+        "name": "proyectox:arma/pirana_2",
+        "preload": true,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "mamut.disparo": {
+    "subtitle": "subtitles.proyectox.mamut.disparo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/mamut_1",
+        "preload": true
+      },
+      {
+        "name": "proyectox:arma/mamut_2",
+        "preload": true
+      }
+    ]
+  },
+  "mamut.cerrojo": {
+    "subtitle": "subtitles.proyectox.mamut.cerrojo",
+    "sounds": [
+      {
+        "name": "proyectox:arma/bolt"
+      }
+    ]
+  }
+}

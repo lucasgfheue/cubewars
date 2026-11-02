@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "RII",
+    "GXI",
+    "  K"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    },
+    "K": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:vibora"
+  }
+}

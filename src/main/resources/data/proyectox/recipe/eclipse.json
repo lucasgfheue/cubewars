@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "GBG",
+    "CXC",
+    "C C"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "B": {
+      "item": "minecraft:black_concrete"
+    },
+    "C": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:eclipse"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "proyectox:microcohete",
+    "proyectox:metralla",
+    "proyectox:orbital",
+    "proyectox:mortero",
+    "proyectox:fusion",
+    "proyectox:mina",
+    "proyectox:cohete",
+    "proyectox:meteorito",
+    "proyectox:granada"
+  ]
+}

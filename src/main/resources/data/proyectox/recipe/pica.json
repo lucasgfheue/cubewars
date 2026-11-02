@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  D",
+    " R ",
+    "X  "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "R": {
+      "item": "minecraft:breeze_rod"
+    },
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:pica"
+  }
+}

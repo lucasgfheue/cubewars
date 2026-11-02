@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " IG",
+    " XI",
+    " K "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    },
+    "K": {
+      "item": "minecraft:coal"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:pirana"
+  }
+}

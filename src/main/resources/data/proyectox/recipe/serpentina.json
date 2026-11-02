@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  C",
+    " C ",
+    "XL "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:chain"
+    },
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    },
+    "L": {
+      "item": "minecraft:lightning_rod"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:serpentina"
+  }
+}

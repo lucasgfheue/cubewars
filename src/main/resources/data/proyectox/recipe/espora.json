@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "MSM",
+    "CXC",
+    " C "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "S": {
+      "item": "minecraft:spore_blossom"
+    },
+    "C": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:espora"
+  }
+}

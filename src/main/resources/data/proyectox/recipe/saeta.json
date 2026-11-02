@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " XS",
+    "B S",
+    " GS"
+  ],
+  "key": {
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "B": {
+      "item": "minecraft:bow"
+    },
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:saeta"
+  }
+}

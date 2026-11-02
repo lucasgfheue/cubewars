@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "S  ",
+    "LXA",
+    " IA"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:spyglass"
+    },
+    "L": {
+      "item": "minecraft:lightning_rod"
+    },
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:antena"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "PGP",
+    "CXC",
+    " C "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:pink_dye"
+    },
+    "G": {
+      "item": "minecraft:ghast_tear"
+    },
+    "C": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:nebula"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "III",
+    "GXR",
+    " K "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "K": {
+      "item": "minecraft:coal"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:huron"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "II ",
+    "GXT",
+    " PP"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    },
+    "T": {
+      "item": "minecraft:iron_trapdoor"
+    },
+    "P": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:chapa"
+  }
+}

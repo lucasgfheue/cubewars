@@ -1,0 +1,149 @@
+{
+  "loader": "neoforge:obj",
+  "model": "proyectox:models/item/prop_botella.obj",
+  "flip_v": true,
+  "emissive_ambient": true,
+  "automatic_culling": false,
+  "textures": {
+    "texture0": "proyectox:item/prop_botella",
+    "particle": "proyectox:item/prop_botella"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        25.0,
+        -135.0,
+        0.0
+      ],
+      "translation": [
+        -0.34,
+        1.05,
+        0.0
+      ],
+      "scale": [
+        1.978,
+        1.978,
+        1.978
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        1.6,
+        0.8,
+        -2.4
+      ],
+      "scale": [
+        0.898,
+        0.898,
+        0.898
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        1.6,
+        0.8,
+        -2.4
+      ],
+      "scale": [
+        0.898,
+        0.898,
+        0.898
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.898,
+        0.898,
+        0.898
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.898,
+        0.898,
+        0.898
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        1.92,
+        0.0
+      ],
+      "scale": [
+        0.987,
+        0.987,
+        0.987
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        1.22,
+        0.0
+      ],
+      "scale": [
+        3.957,
+        3.957,
+        3.957
+      ]
+    },
+    "head": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        4.8,
+        0.0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  }
+}

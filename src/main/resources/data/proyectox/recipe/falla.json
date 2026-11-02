@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "DBD",
+    " X ",
+    " R "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "B": {
+      "item": "minecraft:iron_block"
+    },
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    },
+    "R": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:falla"
+  }
+}

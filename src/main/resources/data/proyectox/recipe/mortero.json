@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "I I",
+    "IXI",
+    "TBT"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    },
+    "T": {
+      "item": "minecraft:tnt"
+    },
+    "B": {
+      "item": "minecraft:blast_furnace"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:mortero"
+  }
+}

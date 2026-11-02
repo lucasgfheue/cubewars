@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "WII",
+    " XG",
+    " D "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "X": {
+      "item": "proyectox:nucleo_xeranio"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "D": {
+      "item": "minecraft:brown_dye"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "proyectox:sombra"
+  }
+}
