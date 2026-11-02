@@ -1,0 +1,168 @@
+name: Compilar Proyecto X
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Descargar el código
+        uses: actions/checkout@v4
+
+      # Un ZIP de actualización se sube tal cual al repositorio (Add file → Upload files), sin descomprimirlo.
+      # Aquí se descomprime encima del código y se borra el ZIP; después se compila con los archivos nuevos.
+      # Lo que haya en .github no se toca: Actions no puede cambiar sus propios flujos, eso se sube a mano.
+      - name: Aplicar los ZIP de actualización
+        shell: python3 {0}
+        run: |
+          import os, re, shutil, sys, zipfile
+          from pathlib import PurePosixPath
+
+          RAIZ = os.getcwd()
+          NO_BUSCAR = {'.git', '.github', '.gradle', 'build', 'run', 'gradle'}
+          MARCAS = {'build.gradle', 'settings.gradle', 'gradle.properties'}
+
+          def orden(nombre):
+              return [int(t) if t.isdigit() else t.lower() for t in re.split(r'(\d+)', nombre)]
+
+          def carpeta_del_mod(rutas):
+              # la carpeta del ZIP que equivale a la raíz del repositorio: la que tiene src/main o build.gradle
+              mejor = None
+              for r in rutas:
+                  p = PurePosixPath(r).parts
+                  cand = None
+                  for i in range(len(p) - 1):
+                      if p[i] == 'src' and p[i + 1] == 'main':
+                          cand = p[:i]
+                          break
+                  if cand is None and p[-1] in MARCAS:
+                      cand = p[:-1]
+                  if cand is not None and (mejor is None or len(cand) < len(mejor)):
+                      mejor = cand
+              if mejor is None:
+                  primeras = {PurePosixPath(r).parts[0] for r in rutas}
+                  todas_dentro = all(len(PurePosixPath(r).parts) > 1 for r in rutas)
+                  mejor = tuple(primeras) if len(primeras) == 1 and todas_dentro else ()
+              return tuple(mejor)
+
+          def destino_de(rel):
+              d = os.path.normpath(os.path.join(RAIZ, *rel))
+              return d if d.startswith(RAIZ + os.sep) else None
+
+          zips = []
+          for carpeta, subcarpetas, archivos in os.walk(RAIZ):
+              subcarpetas[:] = sorted(c for c in subcarpetas if c not in NO_BUSCAR)
+              zips += [os.path.join(carpeta, a) for a in archivos if a.lower().endswith('.zip')]
+          zips.sort(key=lambda z: orden(os.path.basename(z)))
+          if not zips:
+              print('No hay ningún ZIP de actualización: se compila el código tal cual.')
+              sys.exit(0)
+
+          for z in zips:
+              nombre = os.path.relpath(z, RAIZ)
+              try:
+                  zf = zipfile.ZipFile(z)
+              except zipfile.BadZipFile:
+                  print(f'::warning::{nombre} no es un ZIP válido; se deja como está.')
+                  continue
+              with zf:
+                  entradas = []
+                  for info in zf.infolist():
+                      r = info.filename.replace('\\', '/').lstrip('/')
+                      if info.is_dir() or not r or r.startswith('__MACOSX/') or r.endswith('.DS_Store'):
+                          continue
+                      entradas.append((r, info))
+                  if not entradas:
+                      print(f'::warning::{nombre} está vacío; se deja como está.')
+                      continue
+                  base = carpeta_del_mod([r for r, _ in entradas])
+                  print(f'Aplicando {nombre} (carpeta del mod dentro del ZIP: {"/".join(base) or "la raíz"})')
+                  copiados, ignorados, a_mano, borrar = 0, [], [], []
+                  for r, info in entradas:
+                      p = PurePosixPath(r).parts
+                      if p[:len(base)] != base or len(p) == len(base):
+                          continue  # fuera de la carpeta del mod (instrucciones, etc.)
+                      rel = p[len(base):]
+                      if rel == ('BORRAR.txt',):
+                          borrar = zf.read(info).decode('utf-8-sig').splitlines()
+                          continue
+                      destino = destino_de(rel)
+                      if destino is None or rel[0] == '.git' or rel[-1].lower().endswith('.zip') or os.path.isdir(destino):
+                          ignorados.append('/'.join(rel))
+                          continue
+                      datos = zf.read(info)
+                      if rel[0] == '.github':
+                          actual = open(destino, 'rb').read() if os.path.isfile(destino) else b''
+                          if actual.replace(b'\r\n', b'\n').strip() != datos.replace(b'\r\n', b'\n').strip():
+                              a_mano.append('/'.join(rel))
+                          continue
+                      os.makedirs(os.path.dirname(destino), exist_ok=True)
+                      with open(destino, 'wb') as f:
+                          f.write(datos)
+                      if (info.external_attr >> 16) & 0o111:
+                          os.chmod(destino, os.stat(destino).st_mode | 0o111)
+                      copiados += 1
+                  borrados = 0
+                  for linea in borrar:
+                      linea = linea.strip().replace('\\', '/').strip('/')
+                      if not linea or linea.startswith('#'):
+                          continue
+                      rel = PurePosixPath(linea).parts
+                      destino = destino_de(rel)
+                      if destino is None or rel[0] in ('.git', '.github'):
+                          continue
+                      if os.path.isdir(destino):
+                          shutil.rmtree(destino)
+                          borrados += 1
+                      elif os.path.exists(destino):
+                          os.remove(destino)
+                          borrados += 1
+              os.remove(z)
+              print(f'  {copiados} archivos copiados' + (f', {borrados} borrados.' if borrados else '.'))
+              for r in ignorados:
+                  print(f'::notice::{nombre}: se ignora {r}')
+              for r in a_mano:
+                  print(f'::warning::{nombre} trae {r} distinto del que tienes: Actions no puede cambiarlo, súbelo a mano.')
+
+      - name: Guardar en el repositorio lo que traía el ZIP
+        if: github.event_name != 'pull_request' && startsWith(github.ref, 'refs/heads/')
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No hay nada nuevo que guardar."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Aplicar el ZIP de actualización"
+          if git push -q origin "HEAD:${GITHUB_REF_NAME}"; then
+            echo "Los archivos del ZIP quedan guardados en el repositorio y el ZIP, borrado."
+          else
+            echo "::warning::No se pudo guardar en el repositorio lo que traía el ZIP (¿Actions sin permiso de escritura o rama protegida?). El .jar se compila igual con la actualización y el ZIP se volverá a aplicar en la próxima compilación."
+          fi
+
+      - name: Instalar Java 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      - name: Preparar Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Compilar
+        run: |
+          chmod +x ./gradlew
+          ./gradlew build
+
+      - name: Publicar el .jar
+        uses: actions/upload-artifact@v4
+        with:
+          name: proyectox-mod
+          path: build/libs/*.jar
+          if-no-files-found: error
